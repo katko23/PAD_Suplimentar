@@ -1,0 +1,14 @@
+{
+  "name": "SuplimentaryTask_For_PAD",
+  "version": "1.0.0",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.1.5",
+    "express-slow-down": "^2.0.1",
+    "http-proxy-middleware": "^2.0.6",
+    "opossum": "^1.11.1",
+    "redis": "^4.6.12",
+    "socket.io": "^4.7.2"
+  }
+}
