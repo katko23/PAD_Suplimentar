@@ -1,6 +1,6 @@
 services:
   statistic:
-    image: statistic
+    image: katko/pad_suplimentarytask:statistic
     networks:
       - my-network
     ports:
@@ -11,7 +11,7 @@ services:
       - DATABASE_URL=postgresql://user:password@service1_db:5432/database
 
   news:
-    image: news
+    image: katko/pad_suplimentarytask:news
     networks:
       - my-network
     ports:
@@ -34,7 +34,7 @@ services:
       - POSTGRES_PASSWORD=password
 
   gateway:
-    image: gateway
+    image: katko/pad_suplimentarytask:gateway
     container_name: gateway
     networks:
       - my-network
