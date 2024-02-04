@@ -16,3 +16,6 @@ https://killercoseru.grafana.net/d/bdbmyiedd8c1sd/news?orgId=1&from=170692320495
 
 ## Docker
 https://hub.docker.com/repository/docker/katko/pad_suplimentarytask
+
+## Postman
+https://www.postman.com/katko23/workspace/utm/collection/24315989-6ada9402-af6b-4add-82ca-97a147814ca2?action=share&creator=24315989
